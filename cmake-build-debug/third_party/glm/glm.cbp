@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\third_party\;CMake Files\third_party\assimp\;CMake Files\third_party\assimp\cmake\;CMake Files\third_party\assimp\include\;CMake Files\third_party\assimp\include\assimp\;CMake Files\third_party\assimp\cmake-modules\;CMake Files\third_party\assimp\contrib\;CMake Files\third_party\assimp\contrib\irrXML\;CMake Files\third_party\assimp\code\;CMake Files\third_party\glfw\;CMake Files\third_party\glfw\src\;CMake Files\third_party\glew\;CMake Files\third_party\glm\;CMake Files\third_party\glm\glm\;CMake Files\third_party\stb\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/glm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/glm/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/assimp-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/assimp-config.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/assimp.pc.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/assimpTargets-debug.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/assimpTargets.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/revision.h.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake/HunterGate.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/config.h.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\include\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/FindDirectX.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/FindRT.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/PrecompiledHeader.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\assimp\contrib\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\assimp\contrib\irrXML\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\assimp\code\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\third_party\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\third_party\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\glew\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glew/glew.pc.in">
+			<Option virtualFolder="CMake Files\third_party\glew\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\glm\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\glm\glm\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\stb\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/src/config.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

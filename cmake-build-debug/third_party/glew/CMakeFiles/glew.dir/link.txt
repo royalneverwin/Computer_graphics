@@ -1,0 +1,1 @@
+/usr/bin/clang -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -dynamiclib -Wl,-headerpad_max_install_names -compatibility_version 2.2.0 -current_version 2.2.0 -o ../../lib/libGLEWd.2.2.0.dylib -install_name @rpath/libGLEWd.2.2.dylib CMakeFiles/glew.dir/src/glew.c.o  -framework OpenGL -framework OpenGL 

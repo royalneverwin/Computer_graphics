@@ -1,0 +1,8 @@
+cmake_policy(SET CMP0077 NEW)
+set(ASSIMP_NO_EXPORT ON)
+set(BUILD_SHARED_LIBS OFF)
+add_subdirectory(assimp)
+add_subdirectory(glew)
+add_subdirectory(glm)
+add_subdirectory(stb)
+add_subdirectory(glfw)

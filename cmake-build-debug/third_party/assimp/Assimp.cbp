@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assimp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\third_party\;CMake Files\third_party\assimp\;CMake Files\third_party\assimp\cmake\;CMake Files\third_party\assimp\include\;CMake Files\third_party\assimp\include\assimp\;CMake Files\third_party\assimp\cmake-modules\;CMake Files\third_party\assimp\contrib\;CMake Files\third_party\assimp\contrib\irrXML\;CMake Files\third_party\assimp\code\;CMake Files\third_party\glfw\;CMake Files\third_party\glfw\src\;CMake Files\third_party\glew\;CMake Files\third_party\glm\;CMake Files\third_party\glm\glm\;CMake Files\third_party\stb\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IrrXML">
+				<Option output="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML/libIrrXMLd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_EXPORT"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML/Makefile&quot;  VERBOSE=1 IrrXML"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IrrXML/fast">
+				<Option output="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML/libIrrXMLd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_EXPORT"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML/Makefile&quot;  VERBOSE=1 IrrXML/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/contrib/irrXML/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp">
+				<Option output="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/libassimpd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_EXPORT"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DMINIZ_USE_UNALIGNED_LOADS_AND_STORES=0"/>
+					<Add option="-DASSIMP_BUILD_DLL_EXPORT"/>
+					<Add option="-DOPENDDLPARSER_BUILD"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/."/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/../contrib/rapidjson/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/../contrib"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/../contrib/unzip"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/../contrib/openddlparser/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/../include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/../include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/Makefile&quot;  VERBOSE=1 assimp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assimp/fast">
+				<Option output="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/libassimpd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASSIMP_BUILD_NO_OWN_ZLIB"/>
+					<Add option="-DASSIMP_BUILD_NO_EXPORT"/>
+					<Add option="-DASSIMP_BUILD_NO_C4D_IMPORTER"/>
+					<Add option="-DMINIZ_USE_UNALIGNED_LOADS_AND_STORES=0"/>
+					<Add option="-DASSIMP_BUILD_DLL_EXPORT"/>
+					<Add option="-DOPENDDLPARSER_BUILD"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/."/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/../contrib/rapidjson/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/../contrib"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/../contrib/unzip"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/../contrib/openddlparser/include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/../include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/../include"/>
+					<Add directory="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/Makefile&quot;  VERBOSE=1 assimp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/cmake-build-debug/third_party/assimp/include/assimp/config.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/CApi/CInterfaceIOWrapper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/CApi/CInterfaceIOWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/Assimp.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/BaseImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/BaseProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/BaseProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/Bitmap.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/CreateAnimMesh.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/DefaultIOStream.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/DefaultIOSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/DefaultLogger.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/DefaultProgressHandler.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/FileLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/IFF.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/Importer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/Importer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/ImporterRegistry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/PolyTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/PostStepRegistry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/RemoveComments.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/SGSpatialSort.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/SceneCombiner.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/ScenePreprocessor.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/ScenePreprocessor.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/ScenePrivate.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/SkeletonMeshBuilder.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/SpatialSort.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/SplitByBoneCountProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/SplitByBoneCountProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/StandardShapes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/StdOStreamLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/Subdivision.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/TargetAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/TargetAnimation.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/Version.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/VertexTriangleAdjacency.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/VertexTriangleAdjacency.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/Win32DebugLogStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/ZipArchiveIOSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/scene.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/simd.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Common/simd.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXAnimation.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXBinaryTokenizer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXCommon.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXCompileConfig.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXConverter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXConverter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXDeformer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXDocument.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXDocument.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXDocumentUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXDocumentUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXImportSettings.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXImporter.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXMaterial.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXMeshGeometry.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXMeshGeometry.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXModel.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXNodeAttribute.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXProperties.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXProperties.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXTokenizer.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXTokenizer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXUtil.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/FBX/FBXUtil.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Importer/STEPParser/STEPFileEncoding.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Importer/STEPParser/STEPFileEncoding.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Importer/STEPParser/STEPFileReader.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Importer/STEPParser/STEPFileReader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Material/MaterialSystem.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/Material/MaterialSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/CalcTangentsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/CalcTangentsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ComputeUVMappingProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ComputeUVMappingProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ConvertToLHProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ConvertToLHProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/DeboneProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/DeboneProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/DropFaceNormalsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/DropFaceNormalsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/EmbedTexturesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/EmbedTexturesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/FindDegenerates.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/FindDegenerates.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/FindInstancesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/FindInstancesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/FindInvalidDataProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/FindInvalidDataProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/FixNormalsStep.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/FixNormalsStep.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/GenBoundingBoxesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/GenBoundingBoxesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/GenFaceNormalsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/GenFaceNormalsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/GenVertexNormalsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/GenVertexNormalsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ImproveCacheLocality.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ImproveCacheLocality.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/JoinVerticesProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/JoinVerticesProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/LimitBoneWeightsProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/LimitBoneWeightsProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/MakeVerboseFormat.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/MakeVerboseFormat.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/OptimizeGraph.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/OptimizeGraph.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/OptimizeMeshes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/OptimizeMeshes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/PretransformVertices.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/PretransformVertices.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ProcessHelper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ProcessHelper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/RemoveRedundantMaterials.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/RemoveRedundantMaterials.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/RemoveVCProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/RemoveVCProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ScaleProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ScaleProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/SortByPTypeProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/SortByPTypeProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/SplitLargeMeshes.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/SplitLargeMeshes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/TextureTransform.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/TextureTransform.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/TriangulateProcess.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/TriangulateProcess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ValidateDataStructure.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/PostProcessing/ValidateDataStructure.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/clipper/clipper.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/clipper/clipper.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML/CXMLReaderImpl.h">
+			<Option target="IrrXML"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML/heapsort.h">
+			<Option target="IrrXML"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML/irrArray.h">
+			<Option target="IrrXML"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML/irrString.h">
+			<Option target="IrrXML"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML/irrTypes.h">
+			<Option target="IrrXML"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML/irrXML.cpp">
+			<Option target="IrrXML"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML/irrXML.h">
+			<Option target="IrrXML"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/code/DDLNode.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/code/OpenDDLCommon.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/code/OpenDDLExport.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/code/OpenDDLParser.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/code/OpenDDLStream.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/code/Value.cpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/include/openddlparser/DDLNode.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/include/openddlparser/OpenDDLCommon.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/include/openddlparser/OpenDDLExport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/include/openddlparser/OpenDDLParser.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/include/openddlparser/OpenDDLParserUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/include/openddlparser/OpenDDLStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/openddlparser/include/openddlparser/Value.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/common/shapes.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/common/shapes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/common/utils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/sweep/cdt.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/sweep/sweep.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.cc">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/unzip/crypt.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/unzip/ioapi.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/unzip/ioapi.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/unzip/unzip.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/unzip/unzip.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/zip/src/miniz.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/zip/src/zip.c">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/zip/src/zip.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/BaseImporter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Bitmap.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/BlobIOSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/ByteSwapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Compiler/poppack1.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Compiler/pstdint.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Compiler/pushpack1.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/CreateAnimMesh.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/DefaultIOStream.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/DefaultIOSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/DefaultLogger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Defines.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Exceptional.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Exporter.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/GenericProperty.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Hash.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/IOStream.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/IOStreamBuffer.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/IOSystem.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Importer.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/LineSplitter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/LogAux.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/LogStream.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Logger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Macros.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/MathFunctions.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/MemoryIOWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/NullLogger.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/ParsingUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Profiler.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/ProgressHandler.hpp">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/RemoveComments.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/SGSpatialSort.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/SceneCombiner.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/SkeletonMeshBuilder.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/SmoothingGroups.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/SmoothingGroups.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/SpatialSort.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/StandardShapes.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/StreamReader.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/StreamWriter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/StringComparison.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/StringUtils.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Subdivision.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/TinyFormatter.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/Vertex.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/XMLTools.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/ZipArchiveIOSystem.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/aabb.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/ai_assert.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/anim.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/camera.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/cexport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/cfileio.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/cimport.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/color4.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/color4.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/defs.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/fast_atof.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/importerdesc.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/irrXMLWrapper.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/light.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/material.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/material.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/matrix3x3.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/matrix3x3.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/matrix4x4.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/matrix4x4.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/mesh.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/metadata.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/pbrmaterial.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/postprocess.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/qnan.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/quaternion.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/quaternion.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/scene.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/texture.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/types.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/vector2.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/vector2.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/vector3.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/vector3.inl">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/version.h">
+			<Option target="assimp"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/assimp-config-version.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/assimp-config.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/assimp.pc.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/assimpTargets-debug.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/assimpTargets.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/revision.h.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake/HunterGate.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/include/assimp/config.h.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\include\assimp\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/FindDirectX.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/FindPkgMacros.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/FindRT.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/FindZLIB.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/PrecompiledHeader.cmake">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/cmake-modules/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\assimp\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\assimp\contrib\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/contrib/irrXML/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\assimp\contrib\irrXML\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/assimp/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\assimp\code\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\third_party\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\third_party\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\glew\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glew/glew.pc.in">
+			<Option virtualFolder="CMake Files\third_party\glew\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\glm\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\glm\glm\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/third_party/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\stb\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangxinhao/Documents/大二下/计算机图形学/Homework1_hand-graphics-homework-main/src/config.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

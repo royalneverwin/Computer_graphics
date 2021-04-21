@@ -1,0 +1,4 @@
+#pragma once
+
+#define SRC_DIR "${CMAKE_SOURCE_DIR}"
+#define DATA_DIR "${CMAKE_SOURCE_DIR}/data"
